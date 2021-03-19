@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header"> Weather App</h1>
+
+    <label for="First_Name" class="label">First Name:</label>
+    <input type="text" class="input" name="fname">
+    <label for="Last_Name">Last Name:</label>
+    <input type="text" class="input" name="lname"><br><br>
+
+    <h3 class="">
+        Current Location: <span class="my_location"></span>
+    </h3> 
+    <h3 class="">
+        Current Weather: <span class="weather_right_now"></span>
+    </h3> 
+    <img  alt="icon" class="border" id="img"><br><br>
+
+    <label for="City_Name" class="label">City Name:</label>
+    <input type="text" class="input City_Name" name="City_Name">
+    <button type="submit" class="btn">Submit</button>
+
+    
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
